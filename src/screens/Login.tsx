@@ -15,7 +15,7 @@ export const Login:FunctionComponent<LoginProps> =({navigation})=>{
     const { login } = useContext(AuthContext)
     return (
         <Center>
-            <Text>Login</Text>
+            <Text>Login screen</Text>
             <Button title='Log in' onPress={()=>login()}/>
             <Button title='Go to register' onPress={()=>navigation.navigate('Register')}/>
         </Center>
