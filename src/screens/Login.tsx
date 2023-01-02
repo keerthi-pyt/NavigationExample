@@ -16,7 +16,7 @@ export const Login:FunctionComponent<LoginProps> =({navigation})=>{
     return (
         <Center>
             <Text>Login</Text>
-            <Button title='Log in' onPress={()=>login()}/>
+            <Button title='Login' onPress={()=>login()}/>
             <Button title='Go to register' onPress={()=>navigation.navigate('Register')}/>
         </Center>
     )
